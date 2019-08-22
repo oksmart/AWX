@@ -2,4 +2,4 @@
     - all
   tasks:
     - name: Ejecutar el script
-      command: ./home/progiciel/symfony cc
+      command: ./../progiciel/symfony cc
