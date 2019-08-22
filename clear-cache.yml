@@ -1,5 +1,5 @@
 - hosts:
-    - all
+    - CLOUDSVRWEB01
   tasks:
     - name: Ejecutar el script
       command: ./../progiciel/symfony cc
