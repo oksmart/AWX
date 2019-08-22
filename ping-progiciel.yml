@@ -1,0 +1,4 @@
+- hosts:
+    - PROGICIEL
+  tasks:
+    - action: ping
