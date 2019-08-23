@@ -1,0 +1,5 @@
+- hosts:
+    - CLOUDSVRWEB01
+  tasks:
+    - name: Ejecutando el comando
+      command: ./home/progiciel/symfony propel:build-all
