@@ -1,0 +1,5 @@
+- hosts:
+    - CLOUDSRVDBPRE01
+  tasks:
+    - name: Ejecutando el comando
+      command: redis-cli -a t2vnNBH2YdWjx6v4GL3E FLUSHALL
