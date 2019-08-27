@@ -1,6 +1,9 @@
 - hosts:
     - PROGICIEL
   tasks:
+    - name: Become sudo
+      command: sudo -i
+  
     - name: Copiando archivos access_log y error_log a /home/progiciel_logs/access_log
       command: sudo cp /var/log/httpd/access_log /home/progiciel_logs && sudo cp /var/log/httpd/error_log /home/progiciel_logs
       become: yes
