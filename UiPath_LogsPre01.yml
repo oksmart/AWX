@@ -1,6 +1,7 @@
 - hosts:
     - CLOUDSVRRACPRE01
-    become: true
   tasks:
     - name: Eliminando logs de *master-data*
       command: 'sudo rm -rf /var/apps/erp-auto/logs/*master-data.log.*'
+      become: yes
+      become_user: root
