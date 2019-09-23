@@ -1,7 +1,5 @@
 - hosts:
     - CLOUDSVRRACPRE01
   tasks:
-    - name: Ansible delete file
-      file:
-        path: /var/apps/erp-auto/logs/*master-data.log.*
-        state: absent
+    - name: Eliminando logs de *master-data*
+      command: "sudo rm -rf /var/apps/erp-auto/logs/*master-data.log.*"
