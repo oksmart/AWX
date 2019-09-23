@@ -2,6 +2,6 @@
     - CLOUDSVRRACPRE01
   tasks:
     - name: Eliminando logs de *master-data*
-      command: 'sudo rm -rf /var/apps/erp-auto/logs/*master-data.log.*'
+      command: rm -rf /var/apps/erp-auto/logs/*master-data.log.*
       become: yes
       become_user: root
