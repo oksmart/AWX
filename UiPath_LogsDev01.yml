@@ -1,5 +1,0 @@
-- hosts:
-    - CLOUDSVRRACDEV01
-  tasks:
-    - name: Eliminando logs de *master-data*
-      command: sudo rm -rf /var/apps/erp-auto/logs/*master-data.log.*
