@@ -1,3 +1,3 @@
 # AWX
 
-## This is the main page for the playbooks used by Ansible AWX for O.K. Group!
+## This is the main page for the playbooks used by Ansible AWX in O.K. Group!
