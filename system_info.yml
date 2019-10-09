@@ -2,7 +2,7 @@
     - CLOUDSVRRACPRE01
     
   tasks:
-    - shell: cd /home/oksmart/scripts && sudo ./system_info.sh
+    - shell: cd /home/oksmart/scripts && sudo ./system_info.sh > info.txt && cat info.txt
       register: info
 
     - debug: var=info.stdout_lines
