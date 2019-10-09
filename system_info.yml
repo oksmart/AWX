@@ -5,6 +5,4 @@
       command: cd /home/oksmart/scripts && sudo ./system_info.sh
       register: info
 
-    - debug: msg="{{info.stdout}}"
-
-    - debug: msg="{{info.stderr}}"
+    - debug: var=info.stdout_lines
