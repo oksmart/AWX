@@ -5,4 +5,4 @@
       command: ./home/oksmart/scripts/system_info.sh
       register: sysinfo
       
-     - debug: var=sysinfo.stdout
+    - debug: var=sysinfo.stdout
