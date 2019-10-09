@@ -3,6 +3,8 @@
   tasks:
     - name: Ejecutar el script
       command: cd /home/oksmart/scripts && sudo ./system_info.sh
-      register: sysinfo
+      register: info
       
-    - debug: msg="{{ sysinfo.stdout }}"
+    - debug: msg="{{ info.stdout }}"
+    
+    - debug: msg="{{ info.stdout }}"
