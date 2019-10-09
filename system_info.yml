@@ -1,9 +1,8 @@
 - hosts:
     - CLOUDSVRRACPRE01
+    
   tasks:
-    - name: Ejecutar el script
-      command: cd /home/oksmart/scripts && sudo ./system_info.sh
+    - shell: cd /home/oksmart/scripts && sudo ./system_info.sh
       register: info
 
-    - debug:
-      var: info.stdout_lines
+    - debug: var=info.stdout_lines
