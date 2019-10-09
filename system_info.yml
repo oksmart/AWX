@@ -5,4 +5,4 @@
       command: cd /home/oksmart/scripts && sudo ./system_info.sh
       register: sysinfo
       
-    - debug: var=sysinfo.stdout
+    - debug: sysinfo.stdout
