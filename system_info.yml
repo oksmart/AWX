@@ -1,5 +1,5 @@
 - hosts:
-    - CLOUDSVRRACPRE01
+    - SERVERS
     
   tasks:
     - shell: cd /home/oksmart/scripts && sudo ./system_info.sh > info.txt && cat info.txt
