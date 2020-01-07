@@ -2,4 +2,4 @@
     - CLOUDSVRRACDEV01
   tasks:
     - name: Establecer modo "High".
-      command: pwd
+      command: ./CF_High
