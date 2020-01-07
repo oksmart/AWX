@@ -1,5 +1,5 @@
 - hosts:
-    - CLOUDSVRANSIBLE
+    - CLOUDSVRRACDEV01
   tasks:
     - name: Establecer modo "High".
       command: `curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/802026ee6e3ea2b51e34a1cf998a2552/settings/security_level" \
