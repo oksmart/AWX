@@ -2,8 +2,4 @@
     - CLOUDSVRRACDEV01
   tasks:
     - name: Establecer modo "High".
-      command: curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/802026ee6e3ea2b51e34a1cf998a2552/settings/security_level" \
-      command: -H "X-Auth-Email:pablo.amomo@okgroup.es" \
-      command: -H "X-Auth-Key:d4f7aa643b4d51dde972e1680d907bee65ed8" \
-      command: -H "Content-Type:application/json" \
-      command: --data '{"value":"high"}'
+      command: pwd
