@@ -1,4 +1,4 @@
 - hosts:
-    - PROGICIEL
+    - CLOUDSVRWEB01
   tasks:
     - action: ping
