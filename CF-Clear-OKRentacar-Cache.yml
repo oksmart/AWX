@@ -1,5 +1,9 @@
 - hosts:
     - localhost
   tasks:
-    - name: Que servidor es este?
-      command: hostname
+    - name: Where the fuck am i?
+      command: hostname -i
+      command: hostname -a
+      command: hostname -A
+      command: pwd
+      command: whoami
