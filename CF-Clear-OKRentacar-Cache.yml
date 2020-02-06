@@ -1,6 +1,6 @@
   
 - hosts:
-    - CLOUDSVRANSIBLE
+    - SERVERS
   tasks:
     - name: Limpiar la caché de OKRentacar.es
       command: cd /home/oksmart/scripts
