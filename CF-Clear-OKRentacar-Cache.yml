@@ -3,3 +3,5 @@
   tasks:
     - name: Limpiar la caché de OKRentacar.es
       script: /home/oksmart/scripts/cloudflare-clear-cache-okrentacar-es.sh
+    - name: Quien Soy
+      command: whoami
