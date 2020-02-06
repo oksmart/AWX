@@ -2,4 +2,4 @@
     - localhost
   tasks:
     - name: Quien Soy
-      command: whoami
+      command: hostname
