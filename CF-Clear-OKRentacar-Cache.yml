@@ -3,7 +3,15 @@
   tasks:
     - name: Where the fuck am i?
       command: hostname -i
+  tasks:
+    - name: Where the fuck am i2?
       command: hostname -a
+  tasks:
+    - name: Where the fuck am i3?
       command: hostname -A
+  tasks:
+    - name: Where the fuck am i4?
       command: pwd
+  tasks:
+    - name: Where the fuck am i5?
       command: whoami
