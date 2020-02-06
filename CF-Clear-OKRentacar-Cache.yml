@@ -2,4 +2,4 @@
     - localhost
   tasks:
     - name: Limpiar la caché de OKRentacar.es
-      script: /some/local/script
+      script: /home/oksmart/scripts/cloudflare-clear-cache-okrentacar-es.sh
