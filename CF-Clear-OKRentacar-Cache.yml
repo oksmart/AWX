@@ -1,7 +1,5 @@
-  
 - hosts:
     - localhost
   tasks:
     - name: Limpiar la caché de OKRentacar.es
-      command: cd /home/oksmart/scripts
-      command: ./cloudflare-clear-cache-okrentacar-es.sh
+      command: pwd
