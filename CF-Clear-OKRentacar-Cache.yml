@@ -1,5 +1,5 @@
 - hosts:
     - localhost
   tasks:
-    - name: Quien Soy
+    - name: Que servidor es este?
       command: hostname
