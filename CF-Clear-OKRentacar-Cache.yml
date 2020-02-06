@@ -1,6 +1,7 @@
   
 - hosts:
-    - localhost
+    - CLOUDSVRANSIBLE
   tasks:
     - name: Limpiar la caché de OKRentacar.es
-      command: ./scripts/cloudflare-clear-cache-okrentacar-es.sh
+      command: cd /home/oksmart/scripts
+      command: ./cloudflare-clear-cache-okrentacar-es.sh
