@@ -2,4 +2,4 @@
     - localhost
   tasks:
     - name: Limpiar la caché de OKRentacar.es
-      command: ifconfig
+      script: /some/local/script
