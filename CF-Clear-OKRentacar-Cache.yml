@@ -2,4 +2,4 @@
     - localhost
   tasks:
     - name: Limpiar Cache de OKRentacar de Cloudflare
-      command: ./cloudflare-clear-cache-okrentacar-es.sh
+      script: ./cloudflare-clear-cache-okrentacar-es.sh
