@@ -1,5 +1,0 @@
-- hosts:
-    - CLOUDSVRRACDEV01
-  tasks:
-    - name: Establecer modo "High".
-      command: ./CF_High.sh
