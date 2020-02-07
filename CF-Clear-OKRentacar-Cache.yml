@@ -1,13 +1,5 @@
 - hosts:
     - localhost
   tasks:
-    - name: Where the fuck am i?
-      command: hostname -i
-    - name: Where the fuck am i2?
-      command: hostname -a
-    - name: Where the fuck am i3?
-      command: hostname -A
-    - name: Where the fuck am i4?
-      command: pwd
-    - name: Where the fuck am i5?
-      command: whoami
+    - name: Limpiar Cache de OKRentacar de Cloudflare
+      command: ./cloudflare-clear-cache-okrentacar-es.sh
