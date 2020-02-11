@@ -1,4 +1,0 @@
-- hosts:
-    - SMARTMOTION
-  tasks:
-    - action: ping
