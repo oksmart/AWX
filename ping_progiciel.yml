@@ -1,4 +1,0 @@
-- hosts:
-    - CLOUDSVRWEB01
-  tasks:
-    - action: ping
