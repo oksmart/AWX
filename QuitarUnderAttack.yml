@@ -1,5 +1,5 @@
 - hosts:
-    - localhost
+    - CLOUDSVRANSIBLE
   tasks:
     - name: Quitar "Under Attack" y establecer modo "High".
       script: /home/awx/CF_High.sh
