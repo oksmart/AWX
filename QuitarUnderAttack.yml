@@ -2,4 +2,4 @@
     - CLOUDSVRANSIBLE
   tasks:
     - name: Quitar "Under Attack" y establecer modo "High".
-      script: /home/awx/CF_High.sh
+      script: /scripts/CF_High.sh
