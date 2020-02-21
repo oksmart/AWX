@@ -1,0 +1,6 @@
+  
+- hosts:
+    - localhost
+  tasks:
+    - name: Limpiar Cache de Smartmotion.es de Cloudflare
+      script: /home/awx/cf-smartmotion-es-cache.sh
