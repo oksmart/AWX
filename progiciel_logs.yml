@@ -1,5 +1,5 @@
 - hosts:
-    - PROGICIEL
+    - CLOUDSVRWEB01
   tasks:
     - name: Copiando archivo access_log a /home/progiciel_logs/access_log
       command: "sudo cp /var/log/httpd/access_log /home/progiciel_logs/"
