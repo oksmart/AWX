@@ -1,5 +1,5 @@
 - hosts:
     - CLOUDSVRANSIBLE
   tasks:
-    - name: Quitar "Under Attack" y establecer modo "High".
-      script: scripts/iuam-off.sh
+    - name: haciendo el ifconfig
+      command: ifconfig
