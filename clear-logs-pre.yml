@@ -1,0 +1,5 @@
+- hosts:
+    - CLOUDSVRRACPRE01
+  tasks:
+    - name: Borrando los logs anteriores a ayer...
+      script: scripts/clear-logs.sh
