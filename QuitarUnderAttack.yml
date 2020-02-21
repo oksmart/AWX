@@ -2,4 +2,4 @@
     - CLOUDSVRANSIBLE
   tasks:
     - name: Quitar "Under Attack" y establecer modo "High".
-      script: iuam-off.sh
+      script: /home/awx/iuam-off.sh
