@@ -4,6 +4,6 @@
     - name: ifconfig
       command: hostname -i
     - name: pwd
-      command: ifconfig
+      command: pwd
     - name: hostname
       command: hostname
