@@ -1,5 +1,11 @@
 - hosts:
     - CLOUDSVRRACPRE01
   tasks:
-    - name: Borrando los logs anteriores a ayer...
-      script: /home/oksmart/scripts/clear-logs.sh
+    - name: RUTA
+    command: pwd
+    - name: USUARIO
+    command: whoami
+    - name: IP
+    command: hostname -i
+    - name: HOSTNAME
+    command: hostname
