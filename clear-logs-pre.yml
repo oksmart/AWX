@@ -1,5 +1,6 @@
 - hosts:
     - CLOUDSVRRACPRE01
+  sudo: yes
   tasks:
     - name: Borrando los logs anteriores a ayer...
       script: /home/oksmart/scripts/clear-logs.sh
