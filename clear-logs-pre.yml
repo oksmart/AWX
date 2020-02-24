@@ -2,10 +2,10 @@
     - CLOUDSVRRACPRE01
   tasks:
     - name: RUTA
-    command: pwd
+      command: pwd
     - name: USUARIO
-    command: whoami
+      command: whoami
     - name: IP
-    command: hostname -i
+      command: hostname -i
     - name: HOSTNAME
-    command: hostname
+      command: hostname
