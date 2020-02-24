@@ -1,11 +1,5 @@
 - hosts:
     - CLOUDSVRRACPRE01
   tasks:
-    - name: ifconfig
-      command: hostname -i
-    - name: pwd
-      command: pwd
-    - name: hostname
-      command: hostname
-    - name: user
-      command: whoami
+    - name: Borrando los logs anteriores a ayer...
+      script: /home/oksmart/scripts/clear-logs.sh
