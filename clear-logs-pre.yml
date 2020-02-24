@@ -1,7 +1,5 @@
 - hosts:
     - CLOUDSVRRACPRE01
-  become_user: oksmart
   tasks:
     - name: Borrando los logs anteriores a ayer...
-      script: /home/oksmart/scripts/clear-logs.sh
-      remote_src: yes
+      command: . /home/oksmart/scripts/clear-logs.sh
