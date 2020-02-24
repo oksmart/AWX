@@ -3,4 +3,4 @@
   become_user: oksmart
   tasks:
     - name: Borrando los logs anteriores a ayer...
-      script: scripts/clear-logs.sh
+      script: /home/oksmart/scripts/clear-logs.sh
