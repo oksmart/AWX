@@ -7,3 +7,5 @@
       command: pwd
     - name: hostname
       command: hostname
+    - name: user
+      command: whoami
