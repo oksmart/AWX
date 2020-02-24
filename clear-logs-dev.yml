@@ -2,4 +2,4 @@
     - CLOUDSVRRACDEV01
   tasks:
     - name: Borrando los logs anteriores a ayer...
-      script: scripts/clear-logs.sh
+      command: sudo /home/oksmart/scripts/clear-logs.sh
